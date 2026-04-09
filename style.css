@@ -1,0 +1,206 @@
+body{
+    width: 1440px;
+    padding: 0;
+    margin: 0px 170px 0px 170px ; 
+    box-sizing: border-box;
+    font-family: 'Roboto', arial;
+    text-align: center;
+    background-color: rgba(11, 11, 24, 0.726);
+}
+/* Header */
+.header{
+    height: 25px;
+    display: flex;
+}
+.hero{
+    padding: 0px 205px;
+    height: 530px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.logo-img img{  
+    margin-top: 20px;
+    height: 25px;
+    width: 100px;
+}
+.welcome-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    height: 240px;
+    padding-top: 120px;
+}
+.welcome{
+    margin: 0px;
+    width: 450px;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+.welcome-intro{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.welcome-img {
+    width: 520px;
+    height: 235px;
+    margin-bottom: 125px;
+}
+.welcome-notes{
+    padding: 0px;
+    width: 510px;
+    text-align: left;
+}
+.nav-bar{
+    width: 220px;
+    margin-left: 450px;
+    margin-right: 0px;  
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 440px;
+}
+li{
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.button-1{
+    background-color: #3882F6;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #3882F6;
+}
+
+/* Section-2 */
+.section-2{
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 500px;
+    padding-top: 1px;
+
+}
+.section-2 p{
+    padding-top: 50px;
+    
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.rec-books{
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    height: 240px;
+    margin: 50px 310px  50px 310px;
+
+}
+.book img{
+    width: 165px;
+    height: 165px;
+    border-radius: 10px;
+    border: 5px solid ;
+
+    border-color: #3882F6;
+    padding: 0;
+}
+
+/* section-3 */
+.section-3{
+    background-color: #E4E6EA;
+    height: 430px;
+    
+    /* padding-right: 340px; */
+}
+.section-3 p{
+    margin-top: 50px;
+    text-align: center;
+}
+blockquote{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937; 
+    margin: 0;
+}
+.quote{
+    padding: 50px 200px;
+    margin: 0;
+    
+}
+.quote-owner{
+    font-size: 24px;
+}
+.section-4{
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 1440px;
+    margin: 0;
+    padding-top: 1px;
+}
+.call-section{
+    color: #e5e7eb;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1025px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 205px;
+    margin-right: 205px;
+    border-radius: 10px;
+    display: flex;
+    padding-bottom: 1px;
+
+}
+.call-paragraph{
+    font-weight: 900;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 120px;
+    /* padding-top: 50px; */
+    margin-bottom: 1px;
+    
+    /* padding-bottom: 1px; */
+}
+.sign-paragraph{
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.button2-div{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.button-2{
+    
+    background-color: #3882F6;
+    width: 130px;
+    height: 40px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #e5e7eb;
+}
+
+/* footer */
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
